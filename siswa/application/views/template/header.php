@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>siswa.css"/>
 
         <!-- Icons -->
-        <link rel="icon" href="<?php echo base_url('assets/images/')?>logo1.png">
+        <link rel="icon" href="<?php echo base_url('assets/images/')?>academia.png">
         
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>

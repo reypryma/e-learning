@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
                     <input type="text" name="nip" id="nip" class="form-control" value="">
-                    <label class="clues">Contoh: 19650508 199701 1 0038</label>
+                    <label class="clues">Contoh: 19650508</label>
                 </div>
             </div>
             <div class="row item-reg">

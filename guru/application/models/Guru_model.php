@@ -96,7 +96,7 @@
         public static function get_mapel_kelas($kelas){
             $CI     =& get_instance();
             $where  = array('t_jadwal.kelas_id' => $kelas, 'mata_pelajaran.status = 1');
-            $mapel  = $CI->db->select('t_jadwal.id as id_jadwal, mata_pelajaran.nama as nama_mapel, data_guru.nama as nama_dosen')
+            $mapel  = $CI->db->select('t_jadwal.id as id_jadwal, mata_pelajaran.nama as nama_mapel, mata_pelajaran.status as status_mapel, data_guru.nama as nama_dosen')
                         ->from('t_jadwal')
                         ->join('t_mapel', 't_jadwal.t_mapel_id = t_mapel.id')
                         ->join('mata_pelajaran', 't_mapel.mapel_id = mata_pelajaran.id')
@@ -199,7 +199,7 @@
         public static function getMateriDosenbyMapel($dosen, $tmapel){
             $CI =& get_instance();
             $where  = array("dosen_id" => $dosen, "t_mapel.id" => $tmapel);
-            $mapel  = $CI->db->select("mata_pelajaran.nama as nama_mapel,
+            $mapel  = $CI->db->select("mata_pelajaran.nama as nama_mapel, mata_pelajaran.status as status_mapel,
                                     materi.nama as nama_materi, materi.id as id_materi")
                             ->from("t_mapel")
                             ->join("mata_pelajaran", "t_mapel.mapel_id = mata_pelajaran.id")
@@ -400,7 +400,6 @@
                     $CI->Guru_model->write_log($activity);
                     return true;    
                 }
-                
             }
             return false;
         }

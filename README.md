@@ -1,5 +1,5 @@
-# E-PKO
-Aplikasi E-Learning Jurusan Pelatihan Keolahragaan
+# E-lms
+Aplikasi E-Learning Jurusan Teknologi dan Manajemen
 built using codeigniter
 
 <b>DEMO LOGIN</b>

@@ -26,11 +26,13 @@
             <?php
                     foreach($mapel as $data){
             ?>
+						<?php // if ($data['hapus'] == 1){?>
                     <tr>
                         <td><?php echo $data['nama_mapel']?></td>
                         <td><?php echo $data['nama_dosen']?></td>
-                        <td><a href="<?php echo base_url('kelas/hapus_mapel/').$data['id_jadwal']?>" class="btn btn-primary">Hapus Mata Kuliah</a> </td>
+                        <td><a href="<?php echo base_url('kelas/hapus/').$data['id_jadwal']?>" class="btn btn-primary">Nonaktifkan Mata Kuliah</a> </td>
                     </tr>
+							<?//}?>
         <?php           } ?>
                 </table>          
         </div>

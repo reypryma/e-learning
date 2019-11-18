@@ -12,7 +12,7 @@
                         <div class="form-group">
                             <div class="col-sm-12 col-lg-12 controls">
                                 <span class="m_25"><label>Nama Kelas</label></span>
-                                <input type="text" name="nama" id="nama" class="form-control" value="" placeholder="OFF A Pendidikan Jasmani dan Kesehatan">
+                                <input type="text" name="nama" id="nama" class="form-control" value="" placeholder="Machine Learning">
                             </div>
                         </div>
                     </div>
@@ -20,7 +20,7 @@
                         <div class="form-group">
                             <div class="col-sm-12 col-lg-12 controls">
                                 <span class="m_25"><label>Tahun Akademik</label></span>
-                                <input type="number" name="tahun" id="tahun" class="form-control" value="" placeholder="2017">
+                                <input type="number" name="tahun" id="tahun" class="form-control" value="" placeholder="2018">
                             </div>
                         </div>
                     </div>

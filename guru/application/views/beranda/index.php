@@ -59,8 +59,7 @@
         -->
         <?php
             $url_siswa = base_url()."../upload/foto/siswa/";
-//            $url_siswa = "http://localhost/e_pko/epsettings/siswa/";
-            //$url_siswa = "http://".$_SERVER["HTTP_HOST"]."/e_pko/epsettings/siswa/";
+
 		$daftarsiswa = null;
 		if($daftarsiswa<>''){
                 if(is_array($daftarsiswa)){

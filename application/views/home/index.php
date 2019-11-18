@@ -8,10 +8,10 @@
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="carousel-caption">
                                     <h1>Selamat Datang di E-LMS!</h1>
-                                    <h1>Ruang Belajar Online Pendidikan Kepelatihan Olahraga</h1>
+                                    <h1>Ruang Belajar Online lebih murah dari ruangguru</h1>
                                     <p>
-                                        E-PKO merupakan singkatan dari Electronic Learning Pendidikan Kepelatihan Olahraga. Aplikasi ini berfungsi untuk 
-                                        mendukung proses belajar mengajar pada program studi Pendidikan Kepelatihan Olahraga.                            
+                                        E-lms yaitu aplikasi unik untuk membantu pembelajaran berbasis online. Tracking hampir semua kegiatan belajar mengajar dengan mudah
+										dan tiada batas.
                                     </p>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@
                                         Aplikasi ini membantu Dosen dalam menyiapkan materi pembelajaran karena aplikasi ini memiliki konten materi 
                                         yang lengkap. Aplikasi ini juga membantu mahasiswa untuk memiliki kesempatan belajar lebih banyak tidak 
                                         hanya pada tatap muka di kelas, tetapi juga di luar kelas. Sehingga, kegiatan pembelajaran pada program studi
-                                        Pendidikan Kepelatihan Olahraga menjadi semakin fleksible. 
+										Teknologi dan Manajemen menjadi semakin fleksible.
                                     </p>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@
                 </div>
                 <h2>Materi untuk Lab &amp; Class Activity</h2>
                 <p>
-                    Materi pada E-PKO dikemas menjadi dua jenis materi, yaitu Lab Activity dan Class Activity. Materi Lab Activity untuk 
+                    Materi pada E-lms dikemas menjadi dua jenis materi, yaitu Lab Activity dan Class Activity. Materi Lab Activity untuk
                     kegiatan praktikum sedangkan materi Class Activity untuk kelas teori.
                 </p>
             </div>
@@ -66,7 +66,7 @@
                 </div>
                 <h2>Ragam Penyajian Materi</h2>
                 <p>
-                    Materi E-PKO disajikan dalam bentuk PDF, Video, Teks, dan Gambar.
+                    Materi E-LMS disajikan dalam bentuk PDF, Video, Teks, dan Gambar.
                 </p>
             </div>
         </div>

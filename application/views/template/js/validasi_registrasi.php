@@ -22,9 +22,9 @@
                             message: 'Nama pengguna tidak boleh kosong'
                         },
                         stringLength: {
-                            min: 6,
+                            min: 5,
                             max: 20,
-                            message: 'Nama pengguna minimal 6 dan maksimal 20 karakter'
+                            message: 'Nama pengguna minimal 5 dan maksimal 20 karakter'
                         },
                         regexp: {
                             regexp: /^[a-zA-Z0-9_\.]+$/,

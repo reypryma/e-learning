@@ -7,8 +7,8 @@
                     ?>
             <div id="printpdf">
                 <?php foreach($materi as $materi){ ?>
-                <h2 class="text-center"><?php echo $materi['nama_materi']; ?></h3>
-                <h3 class="text-center" id="submateri"><?php echo $materi['nama_submateri']; ?></h4>
+                <h2 class="text-center"><?php echo $materi['nama_materi']; ?></h2>
+                <h3 class="text-center" id="submateri"><?php echo $materi['nama_submateri']; ?></h3>
                 <?php } ?>
                 <div class="form-reg">
                     <span class="label <?php echo ($konten['tipe'] == 'class') ? 'label-warning' : 'label-danger' ?>"><?php echo ucfirst($konten['tipe'])?> Activity</span>
@@ -56,8 +56,8 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="home">
-                        <h3 class="text-center">Instrumen Penilaian Praktikum</h1>
-                        <h4 class="text-center">Pendidikan Kepelatihan Olahraga Web Dinamis</h1>
+                        <h3 class="text-center">Instrumen Penilaian Praktikum</h3>
+                        <h4 class="text-center">Pendidikan Teknologi dan Manajemen Web Dinamis</h4>
                         <p>Petunjuk :</p>
                         <ol>
                             <li>Buatlah format penilaian ini pada Document Editor.</li>

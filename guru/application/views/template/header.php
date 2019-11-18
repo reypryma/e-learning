@@ -3,14 +3,6 @@
         <?php $halaman = ucfirst($this->router->fetch_class()); ?>
         <title> Area <?php echo $this->session->userdata('level') == 9 ? 'Admin | Manajemen ' : 'Dosen | '; ?><?php echo $halaman ?></title>
         
-        <!-- Meta Tags -->
-        <meta charset="UTF-8">
-        <meta name="description" content="E-Learning Pendidikan Kepelatihan Olahraga">
-        <meta name="keywords" content="Tenis, Sepakbola, Kepelatihan, Pendidikan">
-        <meta name="author" content="Tim Fakultas Ilmu Keolahragaan">
-        <meta name="viewport" content="width=device-width">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         
         <!-- CSS -->
 
@@ -20,7 +12,7 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>guru.css"/>
 
         <!-- Icons -->
-        <link rel="icon" href="<?php echo base_url('assets/images/')?>logo1.png">
+        <link rel="icon" href="<?php echo base_url('assets/images/')?>academia.png">
         
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -41,7 +33,7 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand visible-xs" href="#">E-PKO</a>
+                                    <a class="navbar-brand visible-xs" href="#">E-LMS</a>
                                 </div>
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
