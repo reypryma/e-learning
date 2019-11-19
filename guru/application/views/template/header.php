@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>bootstrap.css"/>
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>style.css"/>
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>guru.css"/>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
 
         <!-- Icons -->
         <link rel="icon" href="<?php echo base_url('assets/images/')?>academia.png">

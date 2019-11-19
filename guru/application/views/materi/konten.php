@@ -87,9 +87,9 @@
                                     <tr>
                                         <td class="text-center">1.</td>
                                         <td>Program berjalan dengan baik (tanpa terjadi error)</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
+                                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">2.</td>

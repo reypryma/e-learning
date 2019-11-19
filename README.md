@@ -9,8 +9,8 @@ password : superadmin1234
 
 **GURU**
 
-ibnusina : ibnusina
+* ibnusina : ibnusina 
+* shodiqin : shodiqin
+* budisans : budisans
 
-shodiqin : shodiqin
-
-budisans : budisans
+**Siswa**
