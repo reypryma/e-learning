@@ -115,6 +115,31 @@ class Kelas extends CI_Controller {
 		}
 	}
 
+/*	public static function hapus_mapel($mapel){
+		$CI =& get_instance();
+
+		$hapus  =   array('status' => 0);
+		$where  =   array("id" => $mapel);
+
+		$CI->db->where($where);
+
+		if($CI->db->update("t_jadwal", $hapus)){
+			$where2     =   array('t_mapel_id' => $mapel);
+			$CI->db->where($where2);
+			redirect('kelas');
+			return true;
+		}
+		return false;
+	}*/
+
+	public function hapus_mapel($idjadwal){
+		$hapus = $this->Guru_model->hapus_mapel_kelas($idjadwal);
+		if($hapus){
+			$this->session->set_flashdata("error","Berhasil menonaktifkan mapel");
+		}
+		redirect('kelas');
+	}
+
 	public function hapus($idkelas){
 		$hapus = $this->Guru_model->hapus_kelas($idkelas);
 		if($hapus){

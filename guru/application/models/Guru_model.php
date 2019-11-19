@@ -96,7 +96,7 @@
         public static function get_mapel_kelas($kelas){
             $CI     =& get_instance();
             $where  = array('t_jadwal.kelas_id' => $kelas, 'mata_pelajaran.status = 1');
-            $mapel  = $CI->db->select('t_jadwal.id as id_jadwal, mata_pelajaran.nama as nama_mapel, mata_pelajaran.status as status_mapel, data_guru.nama as nama_dosen')
+            $mapel  = $CI->db->select('t_jadwal.id as id_jadwal, mata_pelajaran.nama as nama_mapel, mata_pelajaran.status as status_mapel, t_mapel.status as status_mapel_kelas, data_guru.nama as nama_dosen')
                         ->from('t_jadwal')
                         ->join('t_mapel', 't_jadwal.t_mapel_id = t_mapel.id')
                         ->join('mata_pelajaran', 't_mapel.mapel_id = mata_pelajaran.id')
@@ -403,6 +403,29 @@
             }
             return false;
         }
+
+		public static function hapus_mapel_kelas($mapel){
+			$CI =& get_instance();
+
+			$hapus  =   array('status' => 0);
+			$where  =   array("id" => $mapel);
+
+			$CI->db->where($where);
+
+			if($CI->db->update("t_mapel", $hapus)){
+				$where2     =   array('t_mapel_id' => 't_mapel.id');
+				$CI->db->where($where2);
+				if($CI->db->update("t_mapel", $hapus)){
+					//write log
+					$activity   =   "menghapus mata pelajaran ID #".$mapel;
+					$CI->Guru_model->write_log($activity);
+					return true;
+				}
+			}
+			return false;
+		}
+
+
 
         public static function hapus_dosen_mapel($dosen, $mapel){
             $CI     =& get_instance();
