@@ -66,9 +66,6 @@
                             <li>Hitunglah nilai total yang dihasilkan dari tiap item aspek penilaian sesuai dengan prosedur penilaian.</li>
                             <li>Masukkan identitas mahasiswa, tabel penilaian, dan total nilai pada saat pengisian data <strong>Rapor</strong> sebagai bahan evaluasi mahasiswa.</li>
                         </ol>
-                        <p>Nama : Alfian</p>
-                        <p>Offering : A</p>
-                        <p>NIM : 1234234234</p>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
@@ -86,36 +83,36 @@
                                 <tbody>
                                     <tr>
                                         <td class="text-center">1.</td>
-                                        <td>Program berjalan dengan baik (tanpa terjadi error)</td>
+                                        <td>Aplikasi berjalan dengan lancar</td>
                                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
-                                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                        <td class="text-center"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></i></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">2.</td>
-                                        <td>Konsep program sesuai dengan perintah penugasan.</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
+                                        <td>Konsep sesuai dengan penugasan yang diberikan</td>
+										<td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+										<td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+										<td class="text-center"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></i></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">3.</td>
-                                        <td>Keluaran yang dihasilkan program sesuai dengan perintah penugasan.</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
+                                        <td>Keluaran sesuai dengan penugasan yang diberikan</td>
+										<td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+										<td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+										<td class="text-center"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></i></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">4.</td>
-                                        <td>Terdapat kreativitas dalam format tampilan program.</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
-                                        <td class="text-center">...</td>
+                                        <td>Terdapat keunikan dalam aplikasi.</td>
+										<td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+										<td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+										<td class="text-center"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></i></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <p>Total Nilai : 0</p>
+                        <!--<p>Total Nilai : 100</p>
                         <p>Prosedur Penilaian :</p>
                         <ol>
                             <li>Aspek penilaian 1 memiliki total nilai 20, jika program berjalan tanpa kesalahan.</li>
@@ -123,7 +120,7 @@
                             <li>Aspek penilaian 3 memiliki total nilai 30, jika keluaran yang dihasilkan program sesuai dengan perintah penugasan.</li>
                             <li>Aspek penilaian 4 memiliki total nilai 20, jika terdapat kreativitas dalam bentuk format tampilan, validasi inputan, atau hal-hal lain yang berada diluar perintah penugasan namun menjadi fasilitas yang seharusnya ada dalam program.</li>
                             <li>Kriteria Ketuntasan Minimum adalah 75.</li>
-                        </ol>
+                        </ol>-->
                     </div>
                     <div role="tabpanel" class="tab-pane" id="profile">
                         <div class="siswa-selesai">

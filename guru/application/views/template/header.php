@@ -2,10 +2,8 @@
     <head>
         <?php $halaman = ucfirst($this->router->fetch_class()); ?>
         <title> Area <?php echo $this->session->userdata('level') == 9 ? 'Admin | Manajemen ' : 'Dosen | '; ?><?php echo $halaman ?></title>
-        
-        
-        <!-- CSS -->
 
+        <!-- CSS -->
         <base href="http://<?php echo $_SERVER['HTTP_HOST'];?>/e-learning/guru">
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>bootstrap.css"/>
         <link rel="stylesheet" href="<?php echo base_url('assets/css/')?>style.css"/>
@@ -45,7 +43,7 @@
                                         $halaman        =   strtolower($halaman);
                                         if($halaman == '')  $halaman    =   'beranda';
 
-                                        $classbn        = "";
+/*                                        $classbn        = "";
                                         $spanclassbn    = "";
                                         $classprof      = "";
                                         $spanclasspr    = "";
@@ -54,7 +52,7 @@
                                         $classmateri    = "";
                                         $spanclassmt    = "";
                                         $classnote      = "";
-                                        $spannote       = "";
+                                        $spannote       = "";*/
                                     
                                         // if($halaman == 'home'){
                                         //     $classbn     = "active";

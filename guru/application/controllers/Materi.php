@@ -33,6 +33,13 @@ class Materi extends CI_Controller {
 		$this->load->view('template/footer');
 	}
 
+	public function hapus($id){
+
+		$hapus  	=	$this->Guru_model->hapus_materi($id);
+		redirect('materi');
+
+	}
+
 	public function byMapel($id)
 	{
 		$data['js']	= '';

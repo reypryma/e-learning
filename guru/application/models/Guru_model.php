@@ -474,6 +474,18 @@
             return false;
         }
 
+        public static function hapus_materi($id){
+        	$CI =& get_instance();
+        	$where = array('id' => $id);
+        	if ($CI->db->delete('materi', $where)){
+				$activity   =   "menghapus materi ID #".$id;
+				$CI->Guru_model->write_log($activity);
+				return true;
+			}else{
+				return false;
+			}
+		}
+
 
         public static function hapus_konten($id){
             $CI =& get_instance();
