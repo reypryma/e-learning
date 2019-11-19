@@ -30,7 +30,7 @@
                 <li>
                     <span>Skin</span>
                     <ul class="colors" data-target="body" data-prefix="skin-">
-                        <li class="active"><a class="blue" href="#"></a></li>
+                        <li class="active"><a class="orange" href="#"></a></li>
                         <li><a class="red" href="#"></a></li>
                         <li><a class="green" href="#"></a></li>
                         <li><a class="orange" href="#"></a></li>

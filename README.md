@@ -3,8 +3,8 @@ Aplikasi E-Learning Jurusan Teknologi dan Manajemen
 built using codeigniter
 
 <b>DEMO LOGIN</b>
-* Admin Area
-username : superadmin
+<h3>Admin Area</h3><br>
+username : superadmin<br>
 password : superadmin1234
 
 **GURU**
@@ -14,3 +14,7 @@ password : superadmin1234
 * budisans : budisans
 
 **Siswa**
+<br>
+yulia:yulia<br>
+samantha:sasha<br>
+erick:speedster<br>
