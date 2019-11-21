@@ -1,14 +1,11 @@
 <div class="container">
 	<div class="row">
-		<h1 class="reg-heading">Data Kelas</h1>
-
+		<h1 class="reg-heading text-center">Data Kelas</h1>
 	</div>
 </div>
-
 <section class="profil-guru">
 	<div class="container">
-
-		<div class="row">
+		<div class="row" id="map">
 			<span><a data-toggle="modal" href="#tambah" data-dismiss="#tambah" class="btn btn-primary">Tambah Kelas</a></span>
 			<br/><br/>
 			<?php
@@ -47,3 +44,6 @@
 		?>
 	</div>
 </section>
+
+
+
