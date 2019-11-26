@@ -10,8 +10,8 @@
                     foreach($konten as $konten){
                     ?>
             <div id="printpdf">
-                <h2 class="text-center"><?php echo $konten['nama_materi']; ?></h3>
-                <h3 class="text-center" id="submateri"><?php echo $konten['nama_submateri']; ?></h4>
+				<h2 class="text-center"><?php echo $konten['nama_materi']; ?></h2>
+                <h3 class="text-center" id="submateri"><?php echo $konten['nama_submateri']; ?></h3>
                 <div class="form-reg">
                     <span class="label <?php echo ($konten['tipe'] == 'class') ? 'label-warning' : 'label-danger' ?>"><?php echo ucfirst($konten['tipe'])?> Activity</span>
                     <span class="label label-default">Mata Kuliah : <?php echo $konten['nama_mapel']; ?></span>
