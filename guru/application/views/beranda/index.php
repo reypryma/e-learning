@@ -123,7 +123,7 @@
             } else {
                 ?>
                     <div class="item-reg">
-                        <label class="label label-danger" style="color:white;">Data tidak ditemukan</label>
+                        <label class="label label-danger" style="color:white;">Data E-Learning Rendering</label>
                     </div>
                 <?php
             }

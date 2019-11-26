@@ -91,7 +91,7 @@
                     <div class="container">
                         <div class="row materi-msg">
                             <div class="item-reg text-center">
-                                    <label class="label label-danger" style="color:white;">Data tidak ditemukan</label>
+                                    <label class="label label-danger" style="color:white;">Data E-Learning Rendering</label>
                             </div>
                         </div>
                     </div>

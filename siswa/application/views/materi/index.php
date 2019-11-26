@@ -129,7 +129,7 @@
                             }
                             else{
                                 ?>
-                                <label class="label label-danger">Data tidak ditemukan</label>
+                                <label class="label label-danger">Data E-Learning Rendering</label>
                                 <?php
                             }
                         ?>
