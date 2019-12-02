@@ -279,7 +279,7 @@
         public static function getAvailableMapelKelas($id_kelas){
             $CI =& get_instance();
             $mapel  = $CI->db->query("SELECT t_mapel.id as id_mapel, mata_pelajaran.nama as nama_mapel,
-                                        data_guru.nama as nama_dosen
+                                        data_guru.nama as nama_dosen, mata_pelajaran.status as mapel_status
                                         FROM mata_pelajaran
                                         JOIN t_mapel ON t_mapel.mapel_id = mata_pelajaran.id
                                         JOIN data_guru ON t_mapel.dosen_id = data_guru.id

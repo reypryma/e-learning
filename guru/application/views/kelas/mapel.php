@@ -21,9 +21,9 @@
 
 			<table class="table table-border text-center">
 				<tr>
-					<th colspan="2" class="text-center">Mata Kuliah</th>
+					<th colspan="1" class="text-center">Mata Kuliah</th>
 					<th class="text-center">Dosen</th>
-					<th class="text-center"></th>
+<!--					<th class="text-center"></th>-->
 				</tr>
 				<?php
 				foreach ($mapel as $data) {
@@ -33,8 +33,8 @@
 							<td><?php echo $data['nama_mapel'] ?></td>
 							<!--						<td>--><?php //echo $data['status_mapel']?><!--</td>-->
 							<td><?php echo $data['nama_dosen'] ?></td>
-							<td><a href="<?php echo base_url('kelas/hapus_mapel/') . $data['id_jadwal'] ?>"
-								   class="btn btn-primary">Nonaktifkan Mata Kuliah</a></td>
+<!--							<td><a href="<?php /*echo base_url('kelas/hapus_mapel/') . $data['id_jadwal'] */?>"
+								   class="btn btn-primary">Nonaktifkan Mata Kuliah</a></td>-->
 						<?php endif; ?>
 					</tr>
 				<?php } ?>
@@ -72,10 +72,12 @@
 									<span class="m_25"><label>Nama Mata Kuliah</label></span>
 									<select name="mapel" id="select_mapel">
 										<?php foreach ($available_mapel as $mapel) { ?>
+											<?php if($mapel["mapel_status"] == 1):?>
 											<option
 												value="<?php echo $mapel['id_mapel'] ?>"><?php echo $mapel['nama_mapel'] ?>
 												(<?php echo $mapel['nama_dosen'] ?>)
 											</option>
+												<?php endif;?>
 										<?php } ?>
 									</select>
 									<input type="hidden" name="kelas" value="<?php echo $id_kelas ?>" id="kelas_id">
