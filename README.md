@@ -17,3 +17,6 @@ password : superadmin1234
 yulia:yulia<br>
 samantha:sasha<br>
 erick:speedster<br>
+
+spain:spain<br>
+siswa1:siswa1<br>
