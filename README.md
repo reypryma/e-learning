@@ -18,5 +18,6 @@ yulia:yulia<br>
 samantha:sasha<br>
 erick:speedster<br>
 
+(belum dipull dalam git)
 spain:spain<br>
 siswa1:siswa1<br>
