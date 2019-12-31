@@ -5,7 +5,7 @@ built using codeigniter
 <b>DEMO LOGIN</b>
 <h3>Admin Area</h3><br>
 username : superadmin<br>
-password : superadmin1234
+password : superadmin123
 
 **GURU**
 * ibnusina : ibnusina 
